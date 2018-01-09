@@ -28,12 +28,17 @@ namespace ShipChunkDrop_Transpiler
             MethodInfo chunkSelector = AccessTools.Method(typeof(HarmonyPatches), nameof(SelectChunkFromAvailableOptions));
 
             List<CodeInstruction> instructionList = instructions.ToList();
+            int i = 0;
             foreach (CodeInstruction instruction in instructions)
             {
                 if (instruction.opcode == OpCodes.Ldsfld)
                 {
-                    instruction.opcode = OpCodes.Call;
-                    instruction.operand = chunkSelector;
+                    if (i == 1)
+                    {
+                        instruction.opcode = OpCodes.Call;
+                        instruction.operand = chunkSelector;
+                    }
+                    i++;
                 }
                 yield return instruction;
             }
@@ -42,7 +47,7 @@ namespace ShipChunkDrop_Transpiler
         public static ThingDef SelectChunkFromAvailableOptions()
         {
             IEnumerable<ThingDef> chunk = from defs in DefDatabase<ThingDef>.AllDefs
-                                            where defs.defName.StartsWith("ShipChunk")
+                                            where defs.defName.StartsWith("ShipChunk") && !defs.defName.Contains("Incoming")
                                             select defs;
 
             return chunk.RandomElement();
