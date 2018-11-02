@@ -14,7 +14,6 @@ namespace ShipChunkDrop_Transpiler
     [StaticConstructorOnStartup]
     static class HarmonyPatches
     {
-
         static HarmonyPatches()
         {
             HarmonyInstance harmony = HarmonyInstance.Create("mehni.rimworld.shipchunks.main");

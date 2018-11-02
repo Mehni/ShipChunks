@@ -4,13 +4,13 @@
   <ThingDef Name="ShipChunk_Base" Abstract="True">
     <category>Building</category>
     <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <selectable>true</selectable>
     <drawerType>MapMeshAndRealTime</drawerType>
     <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
     <repairEffect>Repair</repairEffect>
     <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>BuildingRubble</filthLeaving>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
         <statBases>
             <SellPriceFactor>0.70</SellPriceFactor>
         </statBases>
@@ -51,7 +51,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-      <Component>5</Component>
+      <ComponentIndustrial>5</ComponentIndustrial>
       <Steel>200</Steel>
     </costList>
     <building>
@@ -59,7 +59,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>
@@ -98,7 +98,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-      <Component>8</Component>
+      <ComponentIndustrial>8</ComponentIndustrial>
       <Steel>300</Steel>
     </costList>
     <building>
@@ -106,7 +106,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>
@@ -146,7 +146,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-	  <Component>6</Component>
+	  <ComponentIndustrial>6</ComponentIndustrial>
       <Gold>30</Gold>
       <Steel>60</Steel>
     </costList>
@@ -155,7 +155,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>
@@ -195,7 +195,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-	  <Component>8</Component>
+	  <ComponentIndustrial>8</ComponentIndustrial>
       <Steel>53</Steel>
       <Plasteel>80</Plasteel>
     </costList>
@@ -204,7 +204,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>
@@ -243,7 +243,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-	  <Component>6</Component>
+	  <ComponentIndustrial>6</ComponentIndustrial>
       <Steel>53</Steel>
 	  <Silver>200</Silver>
     </costList>
@@ -252,7 +252,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>
@@ -291,7 +291,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-	  <Component>6</Component>
+	  <ComponentIndustrial>6</ComponentIndustrial>
       <Steel>60</Steel>
 	  <Silver>300</Silver>
     </costList>
@@ -300,7 +300,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>  
@@ -339,7 +339,7 @@
       <ChunkSlagSteel>2</ChunkSlagSteel>
     </killedLeavings>
     <costList>
-	  <Component>8</Component>
+	  <ComponentIndustrial>8</ComponentIndustrial>
       <Steel>280</Steel>
 	  <Silver>200</Silver>
       <Gold>40</Gold>
@@ -349,7 +349,7 @@
       <alwaysDeconstructible>true</alwaysDeconstructible>
     </building>
     <selectable>true</selectable>
-    <soundImpactDefault>BulletImpactMetal</soundImpactDefault>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
     <drawerType>MapMeshOnly</drawerType>
     <repairEffect>ConstructMetal</repairEffect>
   </ThingDef>  

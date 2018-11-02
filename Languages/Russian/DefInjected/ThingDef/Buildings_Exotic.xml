@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ShipChunk_green.label>обломок корабля</ShipChunk_green.label>
+  <ShipChunk_green.description>Обломок космического корабля. Его можно разобрать на ценные материалы.</ShipChunk_green.description>
+
+  <ShipChunk_greenI.label>обломок корабля</ShipChunk_greenI.label>
+  <ShipChunk_greenI.description>Обломок космического корабля. Его можно разобрать на ценные материалы.</ShipChunk_greenI.description>
+
+  <ShipChunk_yellow.label>желтый обломок корабля</ShipChunk_yellow.label>
+  <ShipChunk_yellow.description>Обломок космического корабля. Его можно разобрать на ценные материалы - сталь, золото и компоненты.</ShipChunk_yellow.description>
+
+  <ShipChunk_blue.label>голубой обломок корабля</ShipChunk_blue.label>
+  <ShipChunk_blue.description>Обломок космического корабля. Его можно разобрать на ценные материалы - сталь, пласталь и компоненты.</ShipChunk_blue.description>
+
+  <ShipChunk_gray.label>серый обломок корабля</ShipChunk_gray.label>
+  <ShipChunk_gray.description>Обломок космического корабля. Его можно разобрать на ценные материалы - серебро и компоненты.</ShipChunk_gray.description>
+
+  <ShipChunk_grayI.label>серый обломок корабля</ShipChunk_grayI.label>
+  <ShipChunk_grayI.description>Обломок космического корабля. Его можно разобрать на ценные материалы - серебро и компоненты.</ShipChunk_grayI.description>
+
+  <ShipChunk_purple.label>фиолетовый обломок корабля</ShipChunk_purple.label>
+  <ShipChunk_purple.description>Обломок космического корабля. Его можно разобрать на множество ценных материалы.</ShipChunk_purple.description>
+
+
+</LanguageData>
